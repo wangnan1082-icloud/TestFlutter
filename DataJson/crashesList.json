@@ -1,0 +1,191 @@
+[
+    {
+        "timeFilter": {
+            "startTime": 1573916400000,
+            "endTime": 1574006400000,
+            "interval": 90000000,
+            "roundStrategy": {
+                "startTime": 1573916400000,
+                "endTime": 1574006400000,
+                "spanTime": 86400000,
+                "interval": 3600000
+            },
+            "todaySelected": false,
+            "startDate": "2019-11-16",
+            "endDate": "2019-11-17"
+        },
+        "className": null,
+        "lineNumber": 0,
+        "crashType": "SIGPIPE",
+        "crashCount": 5045,
+        "visitCount": 0,
+        "status": null,
+        "priority": 0,
+        "affected": 3381,
+        "dimensionValue": null,
+        "dimensionId": null,
+        "crashRate": 0
+    },
+    {
+        "timeFilter": {
+            "startTime": 1573916400000,
+            "endTime": 1574006400000,
+            "interval": 90000000,
+            "roundStrategy": {
+                "startTime": 1573916400000,
+                "endTime": 1574006400000,
+                "spanTime": 86400000,
+                "interval": 3600000
+            },
+            "todaySelected": false,
+            "startDate": "2019-11-16",
+            "endDate": "2019-11-17"
+        },
+        "className": null,
+        "lineNumber": 0,
+        "crashType": "SIGBUS",
+        "crashCount": 869,
+        "visitCount": 0,
+        "status": null,
+        "priority": 0,
+        "affected": 634,
+        "dimensionValue": null,
+        "dimensionId": null,
+        "crashRate": 0
+    },
+    {
+        "timeFilter": {
+            "startTime": 1573916400000,
+            "endTime": 1574006400000,
+            "interval": 90000000,
+            "roundStrategy": {
+                "startTime": 1573916400000,
+                "endTime": 1574006400000,
+                "spanTime": 86400000,
+                "interval": 3600000
+            },
+            "todaySelected": false,
+            "startDate": "2019-11-16",
+            "endDate": "2019-11-17"
+        },
+        "className": null,
+        "lineNumber": 0,
+        "crashType": "SIGTRAP",
+        "crashCount": 82,
+        "visitCount": 0,
+        "status": null,
+        "priority": 0,
+        "affected": 64,
+        "dimensionValue": null,
+        "dimensionId": null,
+        "crashRate": 0
+    },
+    {
+        "timeFilter": {
+            "startTime": 1573916400000,
+            "endTime": 1574006400000,
+            "interval": 90000000,
+            "roundStrategy": {
+                "startTime": 1573916400000,
+                "endTime": 1574006400000,
+                "spanTime": 86400000,
+                "interval": 3600000
+            },
+            "todaySelected": false,
+            "startDate": "2019-11-16",
+            "endDate": "2019-11-17"
+        },
+        "className": null,
+        "lineNumber": 0,
+        "crashType": "SIGSEGV",
+        "crashCount": 3,
+        "visitCount": 0,
+        "status": null,
+        "priority": 0,
+        "affected": 2,
+        "dimensionValue": null,
+        "dimensionId": null,
+        "crashRate": 0
+    },
+    {
+        "timeFilter": {
+            "startTime": 1573916400000,
+            "endTime": 1574006400000,
+            "interval": 90000000,
+            "roundStrategy": {
+                "startTime": 1573916400000,
+                "endTime": 1574006400000,
+                "spanTime": 86400000,
+                "interval": 3600000
+            },
+            "todaySelected": false,
+            "startDate": "2019-11-16",
+            "endDate": "2019-11-17"
+        },
+        "className": null,
+        "lineNumber": 0,
+        "crashType": "SIGABRT",
+        "crashCount": 2,
+        "visitCount": 0,
+        "status": null,
+        "priority": 0,
+        "affected": 2,
+        "dimensionValue": null,
+        "dimensionId": null,
+        "crashRate": 0
+    },
+    {
+        "timeFilter": {
+            "startTime": 1573916400000,
+            "endTime": 1574006400000,
+            "interval": 90000000,
+            "roundStrategy": {
+                "startTime": 1573916400000,
+                "endTime": 1574006400000,
+                "spanTime": 86400000,
+                "interval": 3600000
+            },
+            "todaySelected": false,
+            "startDate": "2019-11-16",
+            "endDate": "2019-11-17"
+        },
+        "className": null,
+        "lineNumber": 0,
+        "crashType": "SIGILL",
+        "crashCount": 2,
+        "visitCount": 0,
+        "status": null,
+        "priority": 0,
+        "affected": 1,
+        "dimensionValue": null,
+        "dimensionId": null,
+        "crashRate": 0
+    },
+    {
+        "timeFilter": {
+            "startTime": 1573916400000,
+            "endTime": 1574006400000,
+            "interval": 90000000,
+            "roundStrategy": {
+                "startTime": 1573916400000,
+                "endTime": 1574006400000,
+                "spanTime": 86400000,
+                "interval": 3600000
+            },
+            "todaySelected": false,
+            "startDate": "2019-11-16",
+            "endDate": "2019-11-17"
+        },
+        "className": null,
+        "lineNumber": 0,
+        "crashType": "SIGABRT#NSGenericException",
+        "crashCount": 1,
+        "visitCount": 0,
+        "status": null,
+        "priority": 0,
+        "affected": 1,
+        "dimensionValue": null,
+        "dimensionId": null,
+        "crashRate": 0
+    }
+]

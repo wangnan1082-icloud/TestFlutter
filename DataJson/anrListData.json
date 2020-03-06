@@ -1,0 +1,112 @@
+[
+    {
+        "description": "main.mm() @ Line:0 main.mm main",
+        "occurLocation": "HomeMainProductDetailsVc",
+        "anrCount": 74623,
+        "affectedVisitCount": 61900,
+        "visitCount": 0,
+        "affectedCustomerCount": 50483,
+        "anrRate": 0,
+        "dimensionValue": null,
+        "dimensionId": null
+    },
+    {
+        "description": "SDImageCache.m() @ Line:0 SDImageCache.m __23-[SDImageCache getSize]_block_invoke",
+        "occurLocation": "",
+        "anrCount": 36900,
+        "affectedVisitCount": 36860,
+        "visitCount": 0,
+        "affectedCustomerCount": 16576,
+        "anrRate": 0,
+        "dimensionValue": null,
+        "dimensionId": null
+    },
+    {
+        "description": "defaultManager() @ Line:0 defaultManager MOBFComponentManager",
+        "occurLocation": "",
+        "anrCount": 32965,
+        "affectedVisitCount": 32936,
+        "visitCount": 0,
+        "affectedCustomerCount": 23514,
+        "anrRate": 0,
+        "dimensionValue": null,
+        "dimensionId": null
+    },
+    {
+        "description": "main.mm() @ Line:0 main.mm main",
+        "occurLocation": "MainTaBarVc",
+        "anrCount": 32764,
+        "affectedVisitCount": 29946,
+        "visitCount": 0,
+        "affectedCustomerCount": 27297,
+        "anrRate": 0,
+        "dimensionValue": null,
+        "dimensionId": null
+    },
+    {
+        "description": "main.mm() @ Line:0 main.mm main",
+        "occurLocation": "HomeMainMiVc",
+        "anrCount": 27598,
+        "affectedVisitCount": 24817,
+        "visitCount": 0,
+        "affectedCustomerCount": 22403,
+        "anrRate": 0,
+        "dimensionValue": null,
+        "dimensionId": null
+    },
+    {
+        "description": "MainTaBarVc.m() @ Line:94 MainTaBarVc.m __26-[MainTaBarVc setTabbarUI]_block_invoke",
+        "occurLocation": "",
+        "anrCount": 26534,
+        "affectedVisitCount": 26487,
+        "visitCount": 0,
+        "affectedCustomerCount": 19295,
+        "anrRate": 0,
+        "dimensionValue": null,
+        "dimensionId": null
+    },
+    {
+        "description": "main.mm() @ Line:0 main.mm main",
+        "occurLocation": "HomeMainShareMoneyVc",
+        "anrCount": 24234,
+        "affectedVisitCount": 18486,
+        "visitCount": 0,
+        "affectedCustomerCount": 11990,
+        "anrRate": 0,
+        "dimensionValue": null,
+        "dimensionId": null
+    },
+    {
+        "description": "MainTaBarVc.m() @ Line:95 MainTaBarVc.m __26-[MainTaBarVc setTabbarUI]_block_invoke",
+        "occurLocation": "",
+        "anrCount": 22298,
+        "affectedVisitCount": 22249,
+        "visitCount": 0,
+        "affectedCustomerCount": 16177,
+        "anrRate": 0,
+        "dimensionValue": null,
+        "dimensionId": null
+    },
+    {
+        "description": "main.mm() @ Line:0 main.mm main",
+        "occurLocation": "MineMainVc",
+        "anrCount": 22231,
+        "affectedVisitCount": 17744,
+        "visitCount": 0,
+        "affectedCustomerCount": 13396,
+        "anrRate": 0,
+        "dimensionValue": null,
+        "dimensionId": null
+    },
+    {
+        "description": "main.mm() @ Line:0 main.mm main",
+        "occurLocation": "UIEditingOverlayViewController",
+        "anrCount": 21599,
+        "affectedVisitCount": 19086,
+        "visitCount": 0,
+        "affectedCustomerCount": 17063,
+        "anrRate": 0,
+        "dimensionValue": null,
+        "dimensionId": null
+    }
+]
