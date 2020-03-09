@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'CrashDetailList.dart';
+
 // import 'package:http/http.dart' as http;
 
 // class CrashListPage extends StatelessWidget {
@@ -50,7 +52,7 @@ class SampleAppPage extends StatefulWidget {
 }
 
 class _SampleAppPageState extends State<SampleAppPage> {
-  List widgets = [];
+  List widgetDataList = [];
 
   @override
   void initState() {
@@ -63,12 +65,28 @@ class _SampleAppPageState extends State<SampleAppPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Sample App"),
+        title: Text("Crash Type List"),
       ),
       body: ListView.builder(
-          itemCount: widgets.length,
+          itemCount: widgetDataList.length,
           itemBuilder: (BuildContext context, int position) {
-            return getRow(position);
+            return GestureDetector(
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return CrashDetailListClass();
+                      
+                }));
+              },
+              child: Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: ListTile(
+                    title: Text("Row $position + ${widgetDataList[position]["crashType"]} + crashCount:${widgetDataList[position]["crashCount"]}"),
+                  ),
+                ),
+              ),
+            );
+            // return getRow(position);
           }));
   }
 
@@ -76,7 +94,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
     return Padding(
       padding: EdgeInsets.all(10.0),
       // title
-      child: Text("Row $i + ${widgets[i]["crashType"]}"),
+      child: Text("Row $i + ${widgetDataList[i]["crashType"]} + crashCount:${widgetDataList[i]["crashCount"]}"),
     );
   }
 
@@ -85,7 +103,7 @@ class _SampleAppPageState extends State<SampleAppPage> {
     String dataURL = "http://127.0.0.1:8085/questionsData";
     http.Response response = await http.get(dataURL);
     setState(() {
-      widgets = json.decode(response.body);
+      widgetDataList = json.decode(response.body);
     });
   }
 }

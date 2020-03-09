@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
-import 'CrashList.dart';
+import 'CrashTypeList.dart';
 
 void main() => runApp(MyApp());
 
@@ -103,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.display1,
             ),
             FlatButton(
-              child: Text("Open a new route"),
+              child: Text("Open CrashTypeList"),
               textColor: Colors.green,
               onPressed: () {
                 // 导航到新页面
